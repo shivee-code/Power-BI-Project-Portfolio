@@ -1,10 +1,10 @@
-# ✈️ Airline Data Management and Analysis Using Power BI
+# Airline Data Management and Analysis Using Power BI
 
 This Power BI project focuses on analyzing airline operations using structured datasets to provide insights into flight schedules, passenger data, and ticket bookings. The project improves operational efficiency and supports decision-making in the airline industry.
 
 ---
 
-## 📌 Objective
+## Objective
 
 To manage and analyze flight, passenger, and ticket data using Power BI in order to:
 - Optimize airline operations
@@ -14,7 +14,7 @@ To manage and analyze flight, passenger, and ticket data using Power BI in order
 
 ---
 
-## 📁 Datasets Used
+## Datasets Used
 
 1. **Flight Information**:  
    Includes FlightID, FlightNumber, Airline, Destination, and Status  
@@ -27,7 +27,7 @@ To manage and analyze flight, passenger, and ticket data using Power BI in order
 
 ---
 
-## 🧹 1. Data Preparation & Cleaning
+## 1. Data Preparation & Cleaning
 
 - Data imported and transformed in **Power Query Editor**
 - Cleaned: Removed duplicates, filled missing values, formatted columns
@@ -35,7 +35,7 @@ To manage and analyze flight, passenger, and ticket data using Power BI in order
 
 ---
 
-## 🔗 2. Data Modeling
+## 2. Data Modeling
 
 - Created relationships using **FlightID** as the primary key
 - Set cardinality: *Many-to-One*
@@ -43,7 +43,7 @@ To manage and analyze flight, passenger, and ticket data using Power BI in order
 
 ---
 
-## 📊 3. Enhanced Data Insights
+## 3. Enhanced Data Insights
 
 - Added **Conditional Column** to classify flights as:
   - `"Best"` → Status = "On Time"
@@ -52,7 +52,7 @@ To manage and analyze flight, passenger, and ticket data using Power BI in order
 
 ---
 
-## 🧮 4. DAX Calculations
+## 4. DAX Calculations
 
 - `TotalPassengers`: Count of PassengerIDs for a specific flight  
 - `TotalTicketsBooked`: Count of Tickets booked from the Ticket Information table  
@@ -60,7 +60,7 @@ To manage and analyze flight, passenger, and ticket data using Power BI in order
 
 ---
 
-## 📈 5. Visualizations & Interactions
+## 5. Visualizations & Interactions
 
 - **Passenger Count by Airline** (Clustered Column Chart)
 - **Ticket Booking Status** (Pie Chart)
@@ -72,7 +72,7 @@ To manage and analyze flight, passenger, and ticket data using Power BI in order
 
 ---
 
-## 🧩 6. Final Dashboard and Power BI Service (Discussed)
+## 6. Final Dashboard and Power BI Service (Discussed)
 
 Due to limitations on Power BI Service (e.g., account restrictions), the following features were **discussed theoretically**:
 
@@ -85,31 +85,9 @@ Due to limitations on Power BI Service (e.g., account restrictions), the followi
 
 ---
 
-## 🖼️ Dashboard Preview
-
-> *(Please insert dashboard screenshots in `/images` folder and link here)*  
-Example:  
-![Dashboard Preview](./images/airline-dashboard-preview.png)
-
----
-
-## 🚀 Tools Used
+## Tools Used
 
 - Microsoft Power BI
 - Power Query Editor
 - DAX (Data Analysis Expressions)
 - Excel / Google Sheets
-
----
-
-## 🙋‍♂️ Author
-
-**Shivam Kumar**  
-[LinkedIn Profile](https://linkedin.com/in/your-profile)  
-Email: your-email@example.com  
-
----
-
-## 📜 License
-
-This project is for educational and portfolio use only. No sensitive or real airline data is included.
